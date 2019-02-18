@@ -45,7 +45,7 @@ public class listita extends AppCompatActivity {
         list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(listita.this, "estas clicando el numero"+(position+1), Toast.LENGTH_SHORT).show();
+                Toast.makeText(listita.this, "Eliminado numero "+(position+1), Toast.LENGTH_SHORT).show();
                 int i=list.getSelectedItemPosition();
                 arl.remove(position);
                 list.setAdapter(adapter);
