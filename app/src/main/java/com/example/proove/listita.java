@@ -39,7 +39,7 @@ public class listita extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Toast.makeText(listita.this, "FUNCIONAAAAAAAAAAAA", Toast.LENGTH_SHORT).show();
+                Toast.makeText(listita.this, "Has clickado en "+(id+1), Toast.LENGTH_SHORT).show();
             }
         });
         list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
