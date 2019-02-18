@@ -49,7 +49,6 @@ public class listita extends AppCompatActivity {
                 int i=list.getSelectedItemPosition();
                 arl.remove(position);
                 list.setAdapter(adapter);
-
                 adapter.notifyDataSetChanged();
 
                 return false;
